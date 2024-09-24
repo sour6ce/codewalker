@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "codewalker"
+version = "0.1.0"
+description = "Python code analyzer"
+authors = ["Gabriel Herrod <gabrielhdezrodriguez@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+networkx = "^3.3"
+typer = "^0.12.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
