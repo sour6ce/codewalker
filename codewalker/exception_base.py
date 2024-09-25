@@ -1,0 +1,2 @@
+class CodewalkerException(Exception):
+    pass
